@@ -1,0 +1,23 @@
+.Header{
+    background-image: url("https://loopgk.com/wp-content/uploads/2021/02/lenguaje-min.jpg")!important;
+ }
+ .titulo{
+     text-align: center;
+     color: #0d048a;
+     text-shadow: 2px 2px white;
+ 
+ }
+ .subtitulo{
+     text-align: center;
+     color: #0d048a;
+     text-shadow: 2px 2px white;
+ }
+ nav{
+     display: flex;
+     background-color: aquamarine;
+     padding: 2px;
+     justify-content: "center";
+ }
+ nav a {
+     margin-right: 20px;
+ }

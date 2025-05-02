@@ -1,0 +1,13 @@
+.h3Footer {
+    flex-shrink: 0;
+    padding: 1rem 0 0.5rem 0;
+    height: 100px;
+    background-image: url("https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/conoce-5-lenguajes-de-programacion-basicos.jpg");
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+.ubicacion{
+    width:100%;
+    height: 100%;
+}
