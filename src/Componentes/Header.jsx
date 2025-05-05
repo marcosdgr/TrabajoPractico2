@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Header.css"
+import Nav from './Nav'
 const Header = () => {
   return (
    < div className="Header">
@@ -8,11 +9,7 @@ const Header = () => {
       <br />
       <h2 className="subtitulo">Comision 2 - Grupo 2 </h2>
       <br />
-      <nav className="nav">
-        <a href="Home">Home</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="https://www.frt.utn.edu.ar/">Facultad Regional Tucuman - UTN</a>
-      </nav>
+        <Nav/>
     </div>
   )
 }

@@ -1,0 +1,52 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #7fdbff, #00ffff, #40e0d0);
+}
+
+  
+  .cardImagen {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+  .cardTitulo {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+  }
+  
+  .cardTexto {
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-top: 0.3rem;
+  }
+  .cardContenido {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    
+    
+  }
+  .cardApodo {
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-top: 0.3rem;
+  }

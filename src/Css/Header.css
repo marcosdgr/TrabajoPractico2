@@ -12,12 +12,4 @@
      color: #0d048a;
      text-shadow: 2px 2px white;
  }
- nav{
-     display: flex;
-     background-color: aquamarine;
-     padding: 2px;
-     justify-content: "center";
- }
- nav a {
-     margin-right: 20px;
- }
+ 

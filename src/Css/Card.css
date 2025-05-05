@@ -65,14 +65,20 @@ img{
     
 }
 .cardcita{
-    width:250px;
-    height:250px;
+    width:320px;
+    height:300px;
     margin: 35px;
     background-color: rgb(241, 177, 0);
     text-align: center;
     border-style:outset;
     border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
     
+}
+
+.cardcita:hover{
+    transform: translateX(10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 .title{
     background-color: rgb(241, 177, 0);
@@ -86,6 +92,9 @@ img{
     width: 250px;
     height: 250px;
     transform: scale(1.1);
+}
+.prog {
+    text-align: center;
 }
 
 

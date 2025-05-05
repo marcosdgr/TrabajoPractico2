@@ -1,8 +1,9 @@
 import React from "react";
 import "../Css/Card.css"
 const Card = ({ item }) => {
-  console.log(item);
+  
   return (
+    
     <div className="col">
       <div className="cardcita">
         <img src={item.imagen} className="card-img-top" alt="..." />
